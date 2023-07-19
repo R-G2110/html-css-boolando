@@ -24,6 +24,7 @@ body {
   max-width: 1200px;
   min-width: 500px;
   height: 100%;
+  justify-content: space-between
 }
 
 /* Header */
@@ -36,7 +37,7 @@ header .fixed {
 
 header .fixed .container{
   align-items: center;
-  justify-content: space-between;
+  ;
 }
 
 .container ul {
@@ -58,15 +59,26 @@ header .fixed .container{
 main .container {
   margin: 20px auto;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 main .container .item {
+  position: relative;
   margin: 5px auto;
   width: 350px;
-  /* display: inline-block; */
-  justify-content: space-between;
+  display: inline-block;
 }
 
 main .item img{
-  object-fit: cover;
+  width: 100%;
+  object-fit: 100%;
+}
+
+.item .heart {
+  font-size: 35px;
+  padding: 5px 15px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  background-color: white;
 }

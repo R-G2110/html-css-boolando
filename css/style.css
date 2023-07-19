@@ -84,9 +84,8 @@ main .container .item {
   display: inline-block;
 }
 
-main .item img{
+main .photo-item img{
   width: 100%;
-  object-fit: 100%;
 }
 
 .photo-item{

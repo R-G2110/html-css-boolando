@@ -60,6 +60,15 @@ header .fixed .container{
   color: blue;
 }
 
+.container .logo img{
+  width: 150px;
+}
+
+.container .logo img:hover {
+  /* background-color: blue; */
+  cursor: pointer;
+}
+
 /* Main */
 
 main .container {

@@ -52,3 +52,21 @@ header .fixed .container{
 .container ul a:hover {
   color: blue;
 }
+
+/* Main */
+
+main .container {
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+main .container .item {
+  margin: 5px auto;
+  width: 350px;
+  /* display: inline-block; */
+  justify-content: space-between;
+}
+
+main .item img{
+  object-fit: cover;
+}

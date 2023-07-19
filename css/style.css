@@ -20,6 +20,14 @@ h6 {
   color: white;
 }
 
+/* Case */
+/* option 1 - 2 badges on*/
+/* option 2 - 1 badge (discount) on*/
+/* option 3 - 1 badge (eco) on*/
+/* option 3 - no badge*/
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -58,7 +66,8 @@ header .fixed .container{
 }
 
 .container ul a:hover {
-  color: blue;
+  /* color: rgba(5, 211, 5, 0.616); */
+  filter: opacity(.4);
 }
 
 .container .logo img{
@@ -66,15 +75,13 @@ header .fixed .container{
 }
 
 .container .logo img:hover {
-  /* background-color: blue; */
+  filter: opacity(.6);
   cursor: pointer;
 }
 
 /* Main */
 
-
 main .container {
-  margin: 0px auto;
   padding-top: 70px;
   flex-wrap: wrap;
   justify-content: center;
@@ -131,7 +138,7 @@ main .item img{
   color: white;
 }
 
-.item .sostainable {
+.item .eco {
   font-size: 10px;
   padding: 5px 10px;
   position: absolute;
@@ -153,7 +160,7 @@ main .item img{
   text-transform: uppercase;
 }
 
-.item .d-price {
+.item .c-price {
   color: red;
   font-size: 14px;
   font-weight: 700;
@@ -168,7 +175,8 @@ main .item img{
 /* Footer */
 
 footer{
-  padding: 10px;
+  margin-top: 50px;
+  padding: 20px;
   background-color: #1A1A1A;
 }
 

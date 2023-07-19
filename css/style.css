@@ -75,7 +75,20 @@ main .item img{
 
 .photo-item{
   position: relative;
+  cursor: pointer;
 }
+
+.photo-item .alternative{
+  position: absolute;
+  display: none;
+}
+
+.photo-item:hover .alternative{
+  top: 0;
+  left: 0;
+  display: inline;
+}
+
 
 .item .heart {
   font-size: 35px;
@@ -86,11 +99,15 @@ main .item img{
   background-color: white;
 }
 
+.item .heart:hover {
+  color: red;
+}
+
 .item .discount {
   font-size: 10px;
   padding: 5px 10px;
   position: absolute;
-  bottom: 45px;
+  bottom: 85px;
   left: 0;
   background-color: red;
   color: white;
@@ -100,31 +117,31 @@ main .item img{
   font-size: 10px;
   padding: 5px 10px;
   position: absolute;
-  bottom: 45px;
+  bottom: 85px;
   left: 45px;
   background-color: green;
   color: white;
 }
 
-.item .list-item .brand {
+.item .brand {
   display: block;
   font-size: 12px;
 }
 
-.item .list-item .item-name {
+.item .item-name {
   display: block;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.item .list-item .d-price {
+.item .d-price {
   color: red;
   font-size: 14px;
   font-weight: 700;
 }
 
-.item .list-item .o-price {
+.item .o-price {
   text-decoration: line-through;
   font-size: 14px;
   font-weight: 700;

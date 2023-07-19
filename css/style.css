@@ -136,6 +136,7 @@ main .item img{
   left: 0;
   background-color: red;
   color: white;
+  display: none;
 }
 
 .item .eco {
@@ -146,6 +147,7 @@ main .item img{
   left: 45px;
   background-color: green;
   color: white;
+  display: none;
 }
 
 .item .brand {
@@ -170,6 +172,7 @@ main .item img{
   text-decoration: line-through;
   font-size: 14px;
   font-weight: 700;
+  display: none;
 }
 
 /* Footer */
@@ -187,3 +190,25 @@ footer{
 .privacy a {
   font-size: 10px;
 }
+
+
+.all-badges .discount,
+.all-badges .eco{
+  display: block;
+}
+
+.all-badges .o-price,
+.no-eco .o-price {
+  display: inline-block;
+}
+
+.no-eco .discount{
+  display: block;
+}
+
+.no-discount .eco{
+  bottom: 85px;
+  left: 0;
+  display: block;
+}
+

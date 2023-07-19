@@ -63,7 +63,6 @@ main .container {
 }
 
 main .container .item {
-  position: relative;
   margin: 5px auto;
   width: 350px;
   display: inline-block;
@@ -74,6 +73,10 @@ main .item img{
   object-fit: 100%;
 }
 
+.photo-item{
+  position: relative;
+}
+
 .item .heart {
   font-size: 35px;
   padding: 5px 15px;
@@ -82,3 +85,49 @@ main .item img{
   top: 20px;
   background-color: white;
 }
+
+.item .discount {
+  font-size: 10px;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  background-color: red;
+  color: white;
+}
+
+.item .sostainable {
+  font-size: 10px;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 45px;
+  left: 45px;
+  background-color: green;
+  color: white;
+}
+
+.item .list-item .brand {
+  display: block;
+  font-size: 12px;
+}
+
+.item .list-item .item-name {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.item .list-item .d-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.item .list-item .o-price {
+  text-decoration: line-through;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+

@@ -4,10 +4,18 @@
   box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+}
+
 .debug {
   background-color: rgba(255, 0, 0, 0.2);
   border: 1px solid black;
   min-height: 50px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -15,4 +23,32 @@
   margin: 0 auto;
   max-width: 1200px;
   min-width: 500px;
+  height: 100%;
+}
+
+/* Header */
+
+header .fixed {
+  width: 100%;
+  height: 70px;
+  background-color: #FF6900;
+}
+
+header .fixed .container{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.container ul a{
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.container ul a:hover {
+  color: blue;
 }
